@@ -6,6 +6,12 @@ repo_name: thomasgermain93/openclaw-tutoriels-md
 
 theme:
   name: material
+  language: fr
+  icon:
+    logo: material/book-open-page-variant
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     - scheme: slate
       primary: black
@@ -21,13 +27,26 @@ theme:
         name: Passer en mode sombre
   features:
     - navigation.tabs
+    - navigation.sections
     - navigation.top
+    - navigation.instant
     - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Accueil: index.md

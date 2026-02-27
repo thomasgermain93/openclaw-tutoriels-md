@@ -1,0 +1,36 @@
+site_name: Tutoriels OpenClaw
+site_description: Documentation et tutoriels OpenClaw de Thomas
+site_url: https://thomasgermain93.github.io/openclaw-tutoriels-md/
+repo_url: https://github.com/thomasgermain93/openclaw-tutoriels-md
+repo_name: thomasgermain93/openclaw-tutoriels-md
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode clair
+    - scheme: default
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode sombre
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Accueil: index.md
+  - Tutoriels:
+      - Env global OpenClaw: tutoriels/01-env-global-openclaw.md
+      - Setup Google Ads API: tutoriels/02-google-ads-api-setup.md

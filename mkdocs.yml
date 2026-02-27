@@ -10,18 +10,18 @@ theme:
   icon:
     logo: material/book-open-page-variant
   font:
-    text: Inter
+    text: Figtree
     code: JetBrains Mono
   palette:
     - scheme: slate
       primary: black
-      accent: deep purple
+      accent: amber
       toggle:
         icon: material/weather-night
         name: Passer en mode clair
     - scheme: default
       primary: black
-      accent: deep purple
+      accent: amber
       toggle:
         icon: material/weather-sunny
         name: Passer en mode sombre

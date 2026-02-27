@@ -1,5 +1,5 @@
 <div class="hero">
-  <h1>📚 Tutoriels OpenClaw</h1>
+  <h1>Tutoriels OpenClaw</h1>
   <p>Documentation pratique pour automatiser ton setup OpenClaw, proprement et rapidement.</p>
 </div>
 
